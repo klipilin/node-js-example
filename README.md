@@ -22,7 +22,6 @@ Technologies Used:
 ## Prerequisites
 
 * Node.js (8+): recommend using [nvm](https://github.com/creationix/nvm)
-* Docker (if building a docker image) https://www.docker.com/docker-mac
 
 ## Installation
 
@@ -32,34 +31,4 @@ First, clone this repo and `cd` into the main directory. Then:
 npm install
 ```
 
-## Development
 
-During development, the `/api` folder is being watched for changes.
-
-All changes invoke the TypeScript compiler, which restarts the app upon completion.
-
-```shell
-npm run watch
-```
-
-## Build the Server
-
-To compile the TypeScript code and place into the `/dist` folder:
-
-```shell
-npm build
-```
-
-## Code Linter
-
-A TypeScript linter has been added to keep code consistent among developers.
-
-```shell
-npm run lint
-```
-
-To autofix linting errors (not all errors are auto-fixable):
-
-```shell
-npm run fix
-```
